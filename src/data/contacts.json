@@ -1,0 +1,50 @@
+[
+  {
+    "id": "id-1",
+    "name": "Alice Freeman",
+    "avatar": "https://cdn0.iconfinder.com/data/icons/avatars-and-smiles-collection/110/Icons__goose-512.png",
+    "status": "online"
+  },
+  {
+    "id": "id-2",
+    "name": "Josefina",
+    "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/female_woman_avatar_portrait-512.png",
+    "status": "online"
+  },
+  {
+    "id": "id-3",
+    "name": "Velazquez",
+    "avatar": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png",
+    "status": "online"
+  },
+  {
+    "id": "id-4",
+    "name": "Barrera",
+    "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/female_woman_avatar_portrait_1-512.png",
+    "status": "online"
+  },
+  {
+    "id": "id-5",
+    "name": "Hermione Kline",
+    "avatar": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/supportfemale-512.png",
+    "status": "offline"
+  },
+  {
+    "id": "id-6",
+    "name": "Annie Copeland",
+    "avatar": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png",
+    "status": "offline"
+  },
+  {
+    "id": "id-7",
+    "name": "Morgan",
+    "avatar": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/supportmale-512.png",
+    "status": "offline"
+  },
+  {
+    "id": "id-8",
+    "name": "Jon Doe",
+    "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/man_male_avatar_portrait-512.png",
+    "status": "offline"
+  }
+]
