@@ -1,5 +1,5 @@
 import getLocaleDate from './getLocaleDate';
-import { IMessage } from '../interfaces/IMessage';
+import { IMessage } from '../interfaces';
 
 class CreateMessage implements IMessage {
   public date: string = getLocaleDate(null, {

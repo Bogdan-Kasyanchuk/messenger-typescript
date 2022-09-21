@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import Avatar from '../Avatar';
-import { IUserProps } from '../../interfaces/IUserProps';
+import { IUserProps } from '../../interfaces';
 
 function User({ avatar, name, status }: IUserProps): JSX.Element {
   return (

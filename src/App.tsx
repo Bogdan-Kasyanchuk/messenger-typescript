@@ -8,8 +8,7 @@ import Context from './Context';
 import useLocalStorage from './hooks/useLocalStorage';
 import contactsData from './data/contacts.json';
 import messagesData from './data/messages.json';
-import { IContact } from './interfaces/IContact';
-import { IMessage } from './interfaces/IMessage';
+import { IContact, IMessage } from './interfaces';
 
 function App(): JSX.Element {
   const [contacts] = useState<IContact[]>(contactsData);

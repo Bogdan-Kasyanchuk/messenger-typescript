@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IToastCustomProps } from '../../interfaces/IToastCustomProps';
+import { IToastCustomProps } from '../../interfaces';
 
 function ToastCustom({
   avatar,

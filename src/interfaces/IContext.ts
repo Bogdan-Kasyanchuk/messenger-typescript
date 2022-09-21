@@ -1,6 +1,5 @@
 import { Dispatch, SetStateAction } from 'react';
-import { IContact } from './IContact';
-import { IMessage } from './IMessage';
+import { IContact, IMessage } from './';
 
 export interface IContext {
   contacts: IContact[];

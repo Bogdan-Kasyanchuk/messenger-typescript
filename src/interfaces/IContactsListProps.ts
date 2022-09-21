@@ -1,5 +1,5 @@
 import { MouseEventHandler } from 'react';
-import { IContact } from './IContact';
+import { IContact } from './';
 
 export interface IContactsListProps {
   filteredContacts: IContact[];

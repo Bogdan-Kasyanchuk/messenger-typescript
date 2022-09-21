@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Avatar from '../Avatar';
 import getLocaleDate from '../../helpers/getLocaleDate';
-import { IChatItemProps } from '../../interfaces/IChatItemProps';
+import { IChatItemProps } from '../../interfaces';
 
 function ChatItem({ el, avatar, name }: IChatItemProps): JSX.Element {
   const localeDate = getLocaleDate(el.date, {

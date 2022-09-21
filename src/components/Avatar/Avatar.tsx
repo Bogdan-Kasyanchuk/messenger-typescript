@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { CgCheckO, CgRemove } from 'react-icons/cg';
 import notAvatar from '../../assets/img/notAvatar.png';
-import { IAvatarProps } from '../../interfaces/IAvatarProps';
+import { IAvatarProps } from '../../interfaces';
 
 function Avatar({ src, alt, status }: IAvatarProps): JSX.Element {
   const avatarUrl = src ? src : notAvatar;

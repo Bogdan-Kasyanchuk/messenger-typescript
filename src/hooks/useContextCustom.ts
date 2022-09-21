@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import Context from '../Context';
-import { IContext } from '../interfaces/IContext';
+import { IContext } from '../interfaces';
 
 const useContextCustom = () => useContext<IContext | null>(Context);
 

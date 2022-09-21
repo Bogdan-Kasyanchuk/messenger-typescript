@@ -1,4 +1,4 @@
-import { IMessage } from './IMessage';
+import { IMessage } from './';
 
 export interface IChatItemProps {
   el: IMessage;

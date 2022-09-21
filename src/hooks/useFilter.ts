@@ -1,6 +1,5 @@
 import useInput from '../hooks/useInput';
-import { IContact } from '../interfaces/IContact';
-import { IReturnUseFilter } from '../interfaces/IReturnUseFilter';
+import { IContact, IReturnUseFilter } from '../interfaces';
 
 const useFilter = (contacts: IContact[]): IReturnUseFilter => {
   const { value, handlerInput } = useInput('' as string);

@@ -1,10 +1,12 @@
 import ContactItem from '../ContactItem';
 import useContextCustom from '../../hooks/useContextCustom';
 import getTime from '../../helpers/getTime';
-import { IContext } from '../../interfaces/IContext';
-import { IContactsListProps } from '../../interfaces/IContactsListProps';
-import { IContactItemProps } from '../../interfaces/IContactItemProps';
-import { IMessage } from '../../interfaces/IMessage';
+import {
+  IContext,
+  IContactsListProps,
+  IContactItemProps,
+  IMessage,
+} from '../../interfaces';
 
 const ContactsList = ({
   filteredContacts,

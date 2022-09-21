@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Avatar from '../Avatar';
 import getLocaleDate from '../../helpers/getLocaleDate';
-import { IContactItemProps } from '../../interfaces/IContactItemProps';
+import { IContactItemProps } from '../../interfaces';
 
 function ContactItem({ el }: IContactItemProps): JSX.Element {
   const lastMessagesDate = getLocaleDate(el.message.date, {

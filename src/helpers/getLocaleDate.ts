@@ -1,4 +1,4 @@
-import { IOptionsLocaleDate } from '../interfaces/IOptionsLocaleDate';
+import { IOptionsLocaleDate } from '../interfaces';
 
 const getLocaleDate = (
   date: string | null,

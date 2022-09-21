@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { AiOutlineSearch } from 'react-icons/ai';
 import Input from '../Input';
-import { IFilterProps } from '../../interfaces/IFilterProps';
+import { IFilterProps } from '../../interfaces';
 
 function FilterContacts({ value, handlerInput }: IFilterProps): JSX.Element {
   return (

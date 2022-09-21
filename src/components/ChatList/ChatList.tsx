@@ -1,6 +1,6 @@
 import ChatItem from '../ChatItem';
 import useContextCustom from '../../hooks/useContextCustom';
-import { IContext } from '../../interfaces/IContext';
+import { IContext } from '../../interfaces';
 
 const ChatList = (): JSX.Element => {
   const { contacts, indexCheckedContact, messages } =

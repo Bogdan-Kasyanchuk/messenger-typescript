@@ -1,5 +1,5 @@
 import { useState, ChangeEvent } from 'react';
-import { IReturnUseInput } from '../interfaces/IReturnUseInput';
+import { IReturnUseInput } from '../interfaces';
 
 const useInput = (defaultValue: string): IReturnUseInput => {
   const [value, setValue] = useState<string>(defaultValue);

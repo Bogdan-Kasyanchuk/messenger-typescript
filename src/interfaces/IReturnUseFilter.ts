@@ -1,5 +1,5 @@
 import { ChangeEvent } from 'react';
-import { IContact } from './IContact';
+import { IContact } from './';
 
 export interface IReturnUseFilter {
   value: string;

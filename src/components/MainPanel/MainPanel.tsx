@@ -8,8 +8,7 @@ import ContactsList from '../ContactsList';
 import useContextCustom from '../../hooks/useContextCustom';
 import useFilter from '../../hooks/useFilter';
 import userData from '../../data/user.json';
-import { IContext } from '../../interfaces/IContext';
-import { IReturnUseFilter } from '../../interfaces/IReturnUseFilter';
+import { IContext, IReturnUseFilter } from '../../interfaces';
 
 function MainPanel(): JSX.Element {
   const { contacts, setIndexCheckedContact } = useContextCustom() as IContext;

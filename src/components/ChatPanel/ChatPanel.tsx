@@ -15,8 +15,7 @@ import { getJokes } from '../../service/jokesAPI';
 import scrollBottom from '../../helpers/scrollBottom';
 import CreateMessage from '../../helpers/CreateMessage';
 import newMessage from '../../assets/newMessage.mp3';
-import { IContext } from '../../interfaces/IContext';
-import { IMessage } from '../../interfaces/IMessage';
+import { IContext, IMessage } from '../../interfaces';
 
 function ChatPanel(): JSX.Element {
   const [isSend, setIsSend] = useState<boolean>(false);

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IInputProps } from '../../interfaces/IInputProps';
+import { IInputProps } from '../../interfaces';
 
 function Input({
   value,
